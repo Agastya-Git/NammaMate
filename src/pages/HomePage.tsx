@@ -96,7 +96,7 @@ export function HomePage({
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-forest-700/80 border border-forest-600 mb-6 animate-fade-in-up">
               <MapPin className="w-3.5 h-3.5 text-lime-300" />
               <span className="text-xs font-bold text-warm-200">
-                Kannada Digital Innovation Hackathon 2026 • Problem Statement 03
+                Your Everyday Karnataka Companion
               </span>
             </div>
 

@@ -19,16 +19,16 @@ export function Footer({ onNavigateManual }: FooterProps) {
             </div>
           </div>
 
-          <div className="flex flex-col gap-2 text-sm text-warm-300">
-            <p>Designed for the Kannada Technology Challenge</p>
-            <p>Problem Statement 03 — Kannada in Everyday Life</p>
+          <div className="flex flex-col gap-1 text-sm text-warm-300">
+            <p>Your everyday Kannada conversation partner</p>
+            <p>Empowering seamless communication across Karnataka</p>
             {onNavigateManual && (
               <button
                 onClick={onNavigateManual}
                 className="inline-flex items-center gap-1.5 text-warm-300 hover:text-lime-300 transition-colors mt-1"
               >
                 <BookOpen className="w-4 h-4" />
-                Read the user manual
+                Read the user guide
               </button>
             )}
           </div>
