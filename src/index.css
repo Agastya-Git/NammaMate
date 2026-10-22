@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-warm-100 text-forest-800 font-sans antialiased;
+  }
+  ::selection {
+    @apply bg-lime-300 text-forest-800;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-forest-800 text-warm-100 font-semibold transition-all duration-200 hover:bg-forest-700 hover:shadow-lift active:scale-[0.98] focus:outline-none focus:ring-2 focus:ring-lime-300 focus:ring-offset-2 focus:ring-offset-warm-100;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-warm-100 text-forest-800 font-semibold border border-forest-200 transition-all duration-200 hover:bg-warm-200 hover:border-forest-300 active:scale-[0.98] focus:outline-none focus:ring-2 focus:ring-forest-300 focus:ring-offset-2 focus:ring-offset-warm-100;
+  }
+  .btn-accent {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-lime-300 text-forest-800 font-bold transition-all duration-200 hover:bg-lime-400 hover:shadow-lift active:scale-[0.98] focus:outline-none focus:ring-2 focus:ring-lime-300 focus:ring-offset-2 focus:ring-offset-warm-100;
+  }
+  .card {
+    @apply bg-white rounded-3xl shadow-card transition-all duration-300;
+  }
+  .input-field {
+    @apply w-full px-4 py-3 rounded-2xl bg-white border border-warm-300 text-forest-800 placeholder:text-warm-500 focus:outline-none focus:border-forest-400 focus:ring-2 focus:ring-lime-300 transition-all duration-200;
+  }
+  .kannada {
+    @apply font-kannada;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
