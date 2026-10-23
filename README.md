@@ -22,6 +22,8 @@ Karnataka attracts millions of students, tech professionals, and workers every y
 
 **NammaMate** is an interactive, culturally-empathic communication platform designed specifically for real-world scenarios. It doesn't just display vocabulary—it gives non-Kannada speakers the confidence to speak, practice, and navigate everyday life in Karnataka.
 
+   **Live demo:** https://namma-mate.vercel.app/
+
 ---
 
 ## 🚀 Key Features
